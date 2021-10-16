@@ -5,5 +5,17 @@
 }
 
 body {
-    background-color: #535858;
+    background-color: #6d9292;
+}
+
+h1 {
+    font-family: 'Saira', sans-serif;
+    font-weight: 900;
+    letter-spacing: 5px;
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+    text-align: center;
 }
