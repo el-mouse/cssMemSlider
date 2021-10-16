@@ -114,3 +114,13 @@ h1 {
     }
  }
 
+ .text > p {
+    font-family: 'Saira', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: left;
+    margin-left: 1rem;
+
+
+ }
