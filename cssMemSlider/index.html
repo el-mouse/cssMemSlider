@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Mem Slider</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/favicon.ico">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>CSS Mem Slider</h1>
+        <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <input type="radio" name="slider" id="slide4">
+            <div id="slides">
+               <div id="overflow">
+                    <div class="inner">
+                        <div class="slide slide_1">
+                            <div class="slide-content">
+                                <img src="./assets/i1.jpg" alt="" width="600">
+                                <!-- <p class="subtitle">CSS is Awesome</p> -->
+                            </div>
+                            
+                        </div>
+                        <div class="slide slide_2">
+                            <div class="slide-content">
+                                <img src="./assets/i2.jpg" alt="" width="600">
+                                <!-- <div class="text"><p class="subtitle">You can't hide from JS</p></div> -->
+                            </div>
+                        </div>
+                        <div class="slide slide_3">
+                            <div class="slide-content">
+                                <img src="./assets/i3.jpg" alt="" width="600">
+                                <!-- <p class="subtitle">Ha-ha-ha classic</p> -->
+                            </div>
+                        </div>
+                        <div class="slide slide_4">
+                            <div class="slide-content">
+                                <img src="./assets/i4.jpg" alt="" width="600">
+                                <!-- <p class="subtitle">Start of a career in IT</p> -->
+                            </div>
+                        </div>
+                    </div>
+               </div>
+            </div>
+            <div id="bullets">
+               <label for="slide1"></label>
+               <label for="slide2"></label>
+               <label for="slide3"></label>
+               <label for="slide4"></label>
+            </div> 
+            <div class="text-wrapper">
+                <div class="text-items">
+                    <div class="subtitle">CSS is Awesome</div>
+                    <div class="subtitle">You can't hide from JS</div>
+                    <div class="subtitle">Ha-ha-ha classic</div>
+                    <div class="subtitle">Start of a career in IT</div>
+                </div>
+            </div> 
+         </div>
+    </div>
+    
+    
+</body>
+</html>
